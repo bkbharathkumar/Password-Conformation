@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 15);
+    background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701734400&semt=ais);
+    display: flex;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    /* opacity: 0.5; */
+    background-attachment: fixed;
+
+    height: 100vh;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.Container {
+    height: 450px;
+    width: 330px;
+    backdrop-filter: blur(2px);
+    /* background: rgba(255, 255, 255, 0.2); */
+    /* background-attachment: fixed; */
+    /* background-color: transparent; */
+    border-radius: 10px;
+    padding: 30px 20px;
+    user-select: none;
+    box-shadow: 1px 1px 30px 10px rgb(109, 187, 7);
+    backface-visibility: inherit;
+    /* justify-content: center; */
+    /* margin-top: 200px; */
+
+}
+
+.Container:hover {
+    border-radius: 10px;
+    height: 490px;
+    width: 340px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(133, 177, 20);
+    display: flex;
+    margin-top: 30px;
+
+}
+
+input {
+    display: block;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+    outline: none;
+    margin-top: 5px;
+    /* background-color: rgb(174, 201, 201);
+     */
+    background-color: none;
+    background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701734400&semt=ais);
+    opacity: 0.6;
+}
+
+input[type="password"],
+[type="email"] {
+    border: 2px solid;
+}
+
+input[type="password"]:hover {
+    border: 3px solid #250b97
+}
+
+input[type="email"]:hover {
+    border: 3px solid #250b97
+}
+
+input[type="password"]:focus {
+    border: 2px solid #0b972c
+}
+
+#msg {
+    font-size: 18px;
+    font-weight: 1600;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* color: #250b97; */
+}
+
+#emsg {
+    font-weight: 600;
+    color: #bd1414;
+}
+
+#bsub {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: rgb(133, 177, 20);
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px
+}
+
+#bsub:hover {
+    border-radius: 100px;
+}
+
+
+
+.correct {
+    box-shadow: 1px 1px 30px 10px #07bb64;
+
+}
+
+.Incorrect {
+    box-shadow: 1px 1px 30px 10px #a10707;
+
+}
+
+.Warning {
+    box-shadow: 1px 1px 30px 10px #07789b;
+
+}
+
+.mail.emailWarning {
+
+    box-shadow: 1px 1px 30px 10px #07789b;
+
+
+}
